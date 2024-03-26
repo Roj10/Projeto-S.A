@@ -1,0 +1,11 @@
+.tela {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.texto2 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
