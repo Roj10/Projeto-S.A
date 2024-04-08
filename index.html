@@ -8,13 +8,31 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="tela">
-        <h1>Projeto S.A</h1>
+
+    <!--projeto de calendario para a reserva do hotel--> 
+
+    <div class="calendario">
+        <div class="header">
+            <button id="prevbtn">
+                <i class="fa-solid fa-chevron-left"><</i>
+            </button>
+            <div class="monthyear" id="monthyear"></div>
+            <button id="nextbtn">
+                <i class="fa-solid fa-chevron-right">></i>
+            </button>
+        </div>
+        <div class="days">
+            <div class="day">seg</div>
+            <div class="day">ter</div>
+            <div class="day">qua</div>
+            <div class="day">qui</div>
+            <div class="day">sex</div>
+            <div class="day">sab</div>
+            <div class="day">dom</div>
+        </div>
+        <div class="dates" id="dates"></div>
     </div>
 
-    <div class="texto2">
-        <h2>Tela inicial</h2>
-    </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
